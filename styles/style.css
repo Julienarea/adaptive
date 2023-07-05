@@ -1,0 +1,70 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.flex-container {
+	display: flex;
+	height: 100%;
+}
+
+.col-1-3 {
+	background: url(https://img.freepik.com/free-vector/beautiful-watercolor-background_23-2148486848.jpg?w=2000) 50% / cover;
+	flex: 0 1 33.33%;
+	height: 100%;
+}
+
+.col-2-3 {
+	flex: 0 1 66.66%;
+}
+
+/*Форма*/
+form {
+	background-color: #eaeaea;
+	padding: 30px;
+	height: 100%;
+}
+
+form input {
+	display: block;
+	border-radius: 10px;
+	margin: 5px auto;
+	padding: 10px 5px;
+	background-color: #dfdfdf;
+	width: 177px;
+}
+
+.submit-button {
+	background: url(https://img.freepik.com/free-vector/beautiful-watercolor-background_23-2148486848.jpg?w=2000) 50% / 500%;
+	box-shadow: 0 3px 0 rgba(21, 21, 21, .4);
+	cursor: pointer;
+	width: 177px;
+}
+
+/*стили для мобильной версии*/
+@media (max-width: 600px){
+	.flex-container {
+		flex-direction: column;
+	}
+}
